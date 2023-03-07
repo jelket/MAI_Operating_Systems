@@ -1,0 +1,22 @@
+5376  execve("./lab3", ["./lab3", "1"], 0x7ffd32914760 /* 68 vars */) = 0
+5376  arch_prctl(0x3001 /* ARCH_??? */, 0x7ffcee536b70) = -1 EINVAL (Invalid argument)
+5376  arch_prctl(ARCH_SET_FS, 0x7f33e698d740) = 0
+5376  write(1, "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \321\207\320\270\321\201\320\273\320\276 \320\264\320\273\321\217"..., 51) = 51
+5376  clone(child_stack=0x7f33e698bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[5377], tls=0x7f33e698c700, child_tidptr=0x7f33e698c9d0) = 5377
+5377  exit(0)                           = ?
+5377  +++ exited with 0 +++
+5376  clone(child_stack=0x7f33e698bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[5378], tls=0x7f33e698c700, child_tidptr=0x7f33e698c9d0) = 5378
+5378  exit(0)                           = ?
+5378  +++ exited with 0 +++
+5376  clone(child_stack=0x7f33e698bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[5379], tls=0x7f33e698c700, child_tidptr=0x7f33e698c9d0) = 5379
+5379  exit(0)                           = ?
+5379  +++ exited with 0 +++
+5376  clone(child_stack=0x7f33e698bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[5380], tls=0x7f33e698c700, child_tidptr=0x7f33e698c9d0) = 5380
+5380  exit(0)                           = ?
+5380  +++ exited with 0 +++
+5376  clone(child_stack=0x7f33e698bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[5381], tls=0x7f33e698c700, child_tidptr=0x7f33e698c9d0) = 5381
+5381  exit(0)                           = ?
+5381  +++ exited with 0 +++
+5376  write(1, "151 \320\277\321\200\320\276\321\201\321\202\320\276\320\265 \321\207\320\270\321\201\320\273\320\276\n", 30) = 30
+5376  exit_group(0)                     = ?
+5376  +++ exited with 0 +++
